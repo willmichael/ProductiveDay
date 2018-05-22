@@ -10,6 +10,10 @@
 		7A19623720AE7DB800F7AB7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19623620AE7DB800F7AB7C /* AppDelegate.swift */; };
 		7A19623920AE7DB800F7AB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A19623820AE7DB800F7AB7C /* Assets.xcassets */; };
 		7A19623C20AE7DB800F7AB7C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A19623A20AE7DB800F7AB7C /* MainMenu.xib */; };
+		7A4DDCEB20AE847300DFB284 /* menuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4DDCEA20AE847300DFB284 /* menuController.swift */; };
+		7A4DDCED20AF88C600DFB284 /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4DDCEC20AF88C600DFB284 /* PomodoroModel.swift */; };
+		7A4DDCEF20AF90FF00DFB284 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4DDCEE20AF90FF00DFB284 /* TimerModel.swift */; };
+		7A4DDCF120B37D0A00DFB284 /* FocusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4DDCF020B37D0A00DFB284 /* FocusModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		7A19623B20AE7DB800F7AB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7A19623D20AE7DB800F7AB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A19623E20AE7DB800F7AB7C /* ProductiveDay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProductiveDay.entitlements; sourceTree = "<group>"; };
+		7A4DDCEA20AE847300DFB284 /* menuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuController.swift; sourceTree = "<group>"; };
+		7A4DDCEC20AF88C600DFB284 /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
+		7A4DDCEE20AF90FF00DFB284 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		7A4DDCF020B37D0A00DFB284 /* FocusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				7A19623620AE7DB800F7AB7C /* AppDelegate.swift */,
+				7A4DDCEA20AE847300DFB284 /* menuController.swift */,
+				7A4DDCEE20AF90FF00DFB284 /* TimerModel.swift */,
+				7A4DDCEC20AF88C600DFB284 /* PomodoroModel.swift */,
+				7A4DDCF020B37D0A00DFB284 /* FocusModel.swift */,
 				7A19623820AE7DB800F7AB7C /* Assets.xcassets */,
 				7A19623A20AE7DB800F7AB7C /* MainMenu.xib */,
 				7A19623D20AE7DB800F7AB7C /* Info.plist */,
@@ -131,7 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4DDCED20AF88C600DFB284 /* PomodoroModel.swift in Sources */,
+				7A4DDCEB20AE847300DFB284 /* menuController.swift in Sources */,
 				7A19623720AE7DB800F7AB7C /* AppDelegate.swift in Sources */,
+				7A4DDCF120B37D0A00DFB284 /* FocusModel.swift in Sources */,
+				7A4DDCEF20AF90FF00DFB284 /* TimerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
